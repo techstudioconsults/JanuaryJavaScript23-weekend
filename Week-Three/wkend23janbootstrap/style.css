@@ -1,0 +1,46 @@
+.th {
+  background-color: bisque;
+  padding: 40px;
+}
+.bi {
+  font-size: 30px;
+}
+.slides {
+  width: 270px;
+  height: 250px;
+  margin-left: 5px;
+  flex: none;
+}
+.adjust-position {
+  position: relative;
+}
+
+.red-box {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  z-index: -2;
+}
+.green-box {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  z-index: -1;
+}
+
+.grid-display {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-display div {
+  width: 200px;
+  height: 250px;
+  background-color: aqua;
+}
+
+.grid-bootstrap {
+  /* width: 200px; */
+  height: 250px;
+  background-color: rgb(32, 64, 64);
+}
